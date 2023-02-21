@@ -1,4 +1,6 @@
-# common-consumer-pulsar
-# common-consumer-pulsar
-# common-consumer-pulsar
-# common-consumer-pulsar
+# ymxc通用消费者
+
+## 1.基础信息创建
+#### 1).创建组信息
+#### 2).创建命名空间
+#### 3).创建topic
