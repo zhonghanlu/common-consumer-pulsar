@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="WARN" monitorInterval="30">
+
+    <properties>
+        <property name="PATTERN" value="[%d{HH:mm:ss:SSS}] %t [%p] %l - %m%n"/>
+        <property name="MAX_FILE_SIZE" value="200MB"/>
+        <property name="BASE_LOG_PATH" value="${env:consumer_LOG}"/>
+    </properties>
+
+    <appenders>
+        <console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${PATTERN}"/>
+        </console>
+        <RollingFile name="RollingFile" fileName="${BASE_LOG_PATH}/logs/consumer.log"
+                     filePattern="${BASE_LOG_PATH}/logs/consumer-%d{yyyy-MM-dd}-%i.log">
+            <PatternLayout pattern="${PATTERN}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="${MAX_FILE_SIZE}"/>
+            </Policies>
+            <DefaultRolloverStrategy max="20"/>
+        </RollingFile>
+    </appenders>
+    <loggers>
+        <logger name="org.springframework" level="WARN"/>
+        <logger name="org.casbin.jcasbin" level="ERROR"/>
+        <logger name="com.ymxc" level="DEBUG"/>
+        <root level="INFO">
+            <appender-ref ref="Console"/>
+            <appender-ref ref="RollingFile"/>
+        </root>
+    </loggers>
+</configuration>

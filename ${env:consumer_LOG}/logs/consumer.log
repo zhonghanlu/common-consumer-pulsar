@@ -1,0 +1,48 @@
+[12:26:51:430] background-preinit [INFO] org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21) - HV000001: Hibernate Validator 6.2.0.Final
+[12:26:51:497] restartedMain [INFO] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting Application using Java 1.8.0_361 on zhonghanludeMBP with PID 1877 (/Users/zhonghanlu/dev/IdeaProjects/ymxc-common-consumer/ymxc-common-consumer/app/target/classes started by zhonghanlu in /Users/zhonghanlu/dev/IdeaProjects/ymxc-common-consumer/ymxc-common-consumer)
+[12:26:51:499] restartedMain [DEBUG] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:56) - Running with Spring Boot v2.7.8, Spring v5.3.25
+[12:26:51:500] restartedMain [INFO] org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:631) - No active profile set, falling back to 1 default profile: "default"
+[12:26:52:428] restartedMain [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-10000"]
+[12:26:52:429] restartedMain [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[12:26:52:429] restartedMain [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[12:26:52:528] restartedMain [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[12:26:52:917] restartedMain [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-10000"]
+[12:26:52:949] restartedMain [INFO] org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started Application in 1.892 seconds (JVM running for 2.808)
+[12:27:05:032] background-preinit [INFO] org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21) - HV000001: Hibernate Validator 6.2.0.Final
+[12:27:05:106] restartedMain [INFO] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting Application using Java 1.8.0_361 on zhonghanludeMBP with PID 1880 (/Users/zhonghanlu/dev/IdeaProjects/ymxc-common-consumer/ymxc-common-consumer/app/target/classes started by zhonghanlu in /Users/zhonghanlu/dev/IdeaProjects/ymxc-common-consumer/ymxc-common-consumer)
+[12:27:05:109] restartedMain [DEBUG] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:56) - Running with Spring Boot v2.7.8, Spring v5.3.25
+[12:27:05:110] restartedMain [INFO] org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:631) - No active profile set, falling back to 1 default profile: "default"
+[12:27:06:042] restartedMain [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-10000"]
+[12:27:06:043] restartedMain [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[12:27:06:043] restartedMain [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[12:27:06:141] restartedMain [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[12:27:06:528] restartedMain [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-10000"]
+[12:27:06:564] restartedMain [INFO] org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started Application in 1.917 seconds (JVM running for 2.833)
+[13:31:35:273] http-nio-10000-exec-1 [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[16:22:49:445] Thread-9 [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Pausing ProtocolHandler ["http-nio-10000"]
+[16:22:49:447] Thread-9 [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Stopping service [Tomcat]
+[16:22:49:451] Thread-9 [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[16:22:49:465] Thread-9 [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Stopping ProtocolHandler ["http-nio-10000"]
+[16:22:49:469] Thread-9 [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Destroying ProtocolHandler ["http-nio-10000"]
+[16:22:49:696] restartedMain [INFO] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting Application using Java 1.8.0_361 on zhonghanludeMacBook-Pro.local with PID 1880 (/Users/zhonghanlu/dev/IdeaProjects/ymxc-common-consumer/ymxc-common-consumer/app/target/classes started by zhonghanlu in /Users/zhonghanlu/dev/IdeaProjects/ymxc-common-consumer/ymxc-common-consumer)
+[16:22:49:698] restartedMain [DEBUG] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:56) - Running with Spring Boot v2.7.8, Spring v5.3.25
+[16:22:49:698] restartedMain [INFO] org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:631) - No active profile set, falling back to 1 default profile: "default"
+[16:22:50:004] restartedMain [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-10000"]
+[16:22:50:004] restartedMain [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[16:22:50:004] restartedMain [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[16:22:50:012] restartedMain [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[16:22:50:141] restartedMain [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-10000"]
+[16:22:50:149] restartedMain [INFO] org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started Application in 0.556 seconds (JVM running for 14146.406)
+[16:22:52:568] Thread-16 [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Pausing ProtocolHandler ["http-nio-10000"]
+[16:22:52:568] Thread-16 [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Stopping service [Tomcat]
+[16:22:52:574] Thread-16 [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Stopping ProtocolHandler ["http-nio-10000"]
+[16:22:52:579] Thread-16 [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Destroying ProtocolHandler ["http-nio-10000"]
+[16:22:52:857] restartedMain [INFO] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting Application using Java 1.8.0_361 on zhonghanludeMacBook-Pro.local with PID 1880 (/Users/zhonghanlu/dev/IdeaProjects/ymxc-common-consumer/ymxc-common-consumer/app/target/classes started by zhonghanlu in /Users/zhonghanlu/dev/IdeaProjects/ymxc-common-consumer/ymxc-common-consumer)
+[16:22:52:859] restartedMain [DEBUG] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:56) - Running with Spring Boot v2.7.8, Spring v5.3.25
+[16:22:52:860] restartedMain [INFO] org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:631) - No active profile set, falling back to 1 default profile: "default"
+[16:22:53:152] restartedMain [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-10000"]
+[16:22:53:153] restartedMain [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[16:22:53:153] restartedMain [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[16:22:53:166] restartedMain [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[16:22:53:291] restartedMain [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-10000"]
+[16:22:53:298] restartedMain [INFO] org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started Application in 0.582 seconds (JVM running for 14149.554)
