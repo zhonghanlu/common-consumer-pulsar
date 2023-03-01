@@ -1,6 +1,8 @@
-package com.ymxc.config;
+package com.ymxc.bean;
 
 import lombok.Data;
+import org.springframework.beans.factory.annotation.Configurable;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 import java.util.HashSet;
@@ -8,12 +10,13 @@ import java.util.Set;
 
 /**
  * pulsarAdmin
- * pulsarAdmin
  * 通用配置
  */
 @Data
 @Component
-public class PulsarConfig {
+@Configurable
+@ConfigurationProperties(prefix = "ymxc-pulsar.admin")
+public class PulsarAdmin {
 
     /**
      * pulsar地址

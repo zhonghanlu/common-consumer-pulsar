@@ -1,6 +1,5 @@
 package com.ymxc.base;
 
-import com.ymxc.config.PulsarConfig;
 import com.ymxc.util.FormatStrForPulsar;
 import com.ymxc.webmvc.Restful;
 import lombok.RequiredArgsConstructor;
@@ -27,27 +26,26 @@ public class PulsarAdminApi {
 
     private PulsarAdmin pulsarAdmin;
 
-    private final PulsarConfig pulsarConfig;
+    private final com.ymxc.bean.PulsarAdmin admin;
 
     @PostConstruct
     public void initPulsarAdmin(){
         try {
             pulsarAdmin=PulsarAdmin.builder()
-                    .serviceHttpUrl(pulsarConfig.getServiceHttpUrl())
+                    .serviceHttpUrl(admin.getServiceHttpUrl())
                     .build();
         } catch (PulsarClientException e) {
-            log.error("构建pulsarAdmin一场：【{}】",e);
+            log.error("构建pulsarAdmin异常：【{}】",e);
         }
     }
-    private Map<String,String> data=new HashMap<>();
 
     /**
      * 创建用户组
      */
     public  void createTenants(String tenantName){
         TenantInfoImpl config = TenantInfoImpl.builder()
-                .adminRoles(pulsarConfig.getAdminRoles())
-                .allowedClusters(pulsarConfig.getCluster())
+                .adminRoles(admin.getAdminRoles())
+                .allowedClusters(admin.getCluster())
                 .build();
         try {
             pulsarAdmin.tenants().createTenant(tenantName,config);
