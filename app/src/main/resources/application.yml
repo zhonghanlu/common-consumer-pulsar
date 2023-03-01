@@ -1,9 +1,48 @@
 server:
   port: 10000
 spring:
+  aop:
+    proxy-target-class: true
   application:
     name: common-consumer
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.100.91.189:3306/pulsar_test?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=convertToNull
+    username: root
+    password: 123456
+
+
+
+ymxc-pulsar:
+  admin:
+    serviceHttpUrl: http://47.100.91.189:8081
+    cluster:
+      - standalone
+    adminRoles:
+      - dev
+  template:
+      serviceUrl: pulsar://47.100.91.189:6651
+      enableTcpNoDelay: true
+      operationTimeout: 1000
+      listenerThreads: 5
+      ioThreads: 5
+  producer:
+    tenant: dev-tenant
+    namespace: dev-namespace
+    producerName: testProducer
+    sendTimeoutMs: 30000
+    blockIfQueueFull: true
+  consumer:
+    subscriptionName: 0
+    subscriptionType: 0
+    receiverQueueSize: 0
+    consumerName: 0
+    subscriptionInitialPosition: 0
 
 pulsar:
-  serverUrl:
+  url: pulsar://47.100.91.189:6651
+  topic: persistent://dev-tenant/dev-namespace/dev-topic
+  subscription: test-consumer
+
+
 
